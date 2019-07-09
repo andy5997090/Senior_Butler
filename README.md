@@ -78,15 +78,14 @@ Password: 1234
 15.	Webpage4 - is for Backoffice to edit/update information of location for client.
 
 
-What works and doesn’t work (?)
 Works:
-●	Registration page: We are able to connect the database. Whenever the customers register, the information will be sent to the database. 
-●	GoCanvas: We can create a inspection checklist and dispatch them into different workers. And we can also use the csvtest.html and csvtest2.php to create a formatted dispatch csv document and upload it to GoCanvas, so we do not need to dispatch it one by one on the website.
-●	Senior Butler Website: There are four pages for clients and four pages for back office which includes the page for customer to update their information. Also, there is login form for back office/provider and secretary page for services.
-●	The read.php file can read from the secretary.html - it takes the form submission and reads it against the database.
+1. Registration page: We are able to connect the database. Whenever the customers register, the information will be sent to the database. 
+2. GoCanvas: We can create a inspection checklist and dispatch them into different workers. And we can also use the csvtest.html and csvtest2.php to create a formatted dispatch csv document and upload it to GoCanvas, so we do not need to dispatch it one by one on the website.
+3. Senior Butler Website: There are four pages for clients and four pages for back office which includes the page for customer to update their information. Also, there is login form for back office/provider and secretary page for services.
+4. The read.php file can read from the secretary.html - it takes the form submission and reads it against the database.
 Doesn’t Work:
-●	GoCanvas: We cannot save the pdf file/link into the database because it does not recognize which pdf file belongs to which customers.
-●	There is no connection between the secretary confirmation page and sending of the csv file to the database
-●	The web pages/web forms are not connected to the database including back office/provider login form; however, it could be connected the same way our registration page for clients are connected to the database. 
+5. GoCanvas: We cannot save the pdf file/link into the database because it does not recognize which pdf file belongs to which customers.
+6. There is no connection between the secretary confirmation page and sending of the csv file to the database
+7. The web pages/web forms are not connected to the database including back office/provider login form; however, it could be connected the same way our registration page for clients are connected to the database. 
 
 
